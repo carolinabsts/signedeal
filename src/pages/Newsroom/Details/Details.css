@@ -1,0 +1,26 @@
+.DetailsPage__container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.DetailsPage__date {
+    color: var(--primary-dark-blue);
+    font-family: 'Proza Libre', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 2.5px;
+    margin-bottom: 40px
+}
+
+.DetailsPage__paragraphs--container {
+    width: 50%;
+    margin-bottom: 40px
+}
+
+@media only screen and (max-width: 1279px) {
+    .DetailsPage__paragraphs--container {
+        width: 100%;
+    }
+}

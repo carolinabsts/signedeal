@@ -1,0 +1,57 @@
+.NewsroomPage__pageSection {
+    width: 100%;
+}
+
+.NewsroomPage__container {
+    width: 600px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    padding: 30px 30px;
+    border-radius: 5px;
+    font-family: 'Proza Libre', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #FFF;
+}
+
+.NewsroomPage__title {
+    color: var(--primary-dark-blue);
+    font-family: 'Proza Libre', sans-serif;
+    font-weight: bold;
+}
+
+.NewsroomPage__container > div {
+    width: 100%;
+}
+
+.NewsroomPage__container > div img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.NewsroomPage__description {
+    color: gray;
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 1.1rem;
+    margin-bottom: 20px
+}
+
+@media only screen and (max-width: 1279px) {
+    .NewsroomPage__container {
+        width: 100%;
+    }
+    .NewsroomPage__title {
+        font-size: 1.1rem;
+    }
+    .NewsroomPage__description {
+        font-size: 0.9rem;
+    }
+    .NewsroomPage__container > div {
+        width: 100%;
+        margin: 20px 0;
+    }
+    .NewsroomPage__container {
+        margin-bottom: 60px
+    }
+}

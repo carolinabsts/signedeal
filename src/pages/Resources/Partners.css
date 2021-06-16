@@ -1,0 +1,9 @@
+.CompanyPage__container {
+    margin-bottom: 80px
+}
+
+@media only screen and (max-width: 1279px) {
+    .CompanyPage__container {
+        margin-bottom: 0;
+    }
+}
