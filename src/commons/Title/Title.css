@@ -1,0 +1,16 @@
+.TitleProps__container {
+    font-weight: bold;
+    font-family: 'Proza Libre', sans-serif !important;
+    color: var(--primary-dark-blue);
+    text-align: left;
+    width: 100%;
+}
+
+@media only screen and (max-width: 1279px) {
+    .TitleProps__container {
+        font-size: 1.4rem !important;
+    }
+    .--subtitleProps {
+        font-size: 1.2rem !important;
+    }
+}

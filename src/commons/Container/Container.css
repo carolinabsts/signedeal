@@ -1,0 +1,23 @@
+.SignedealContainerComponent {
+    width: 90% !important;
+    margin: auto !important;
+    padding: 0px 24px;
+    box-sizing: border-box !important;
+    color: var(--light-gray);
+    font-size: 14px;
+    font-family: 'Proza Libre', sans-serif;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media only screen and (min-width: 1280px) {
+    .SignedealContainerComponent {
+        width: 90% !important;
+        max-width: 1920px;
+        margin: auto;
+        font-size: 16px;
+    }
+}
