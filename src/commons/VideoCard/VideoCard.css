@@ -1,0 +1,40 @@
+.VideoCard__square {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 100px 100px;
+    height: 450px;
+}
+
+.VideoCard__container {
+    width: 100%;
+    display: flex;
+    max-width: 1920px;
+    margin: auto;
+}
+
+@media only screen and (max-width: 1279px) {
+    .VideoCard__video {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .VideoCard__container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .VideoCard__square {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        height: auto;
+    }
+
+    .--less-margin {
+        margin: 40px 0 60px 0;
+    }
+}

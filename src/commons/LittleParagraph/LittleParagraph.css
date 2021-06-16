@@ -1,0 +1,31 @@
+.LittleParagraph__container {
+    color: var(--primary-dark-blue);
+    font-size: 1.1rem;
+    width: fit-content;
+    padding-bottom: 20px
+}
+
+.LittleParagraph__container > p {
+    margin: 0;
+}
+
+.LittleParagraph__container > h4 {
+    margin: 0;
+    padding-bottom: 5px
+}
+
+.LittleParagraph__container > p ul {
+    margin: 0;
+    padding: 0;
+}
+
+.LittleParagraph__container > p ul li {
+    height: fit-content;
+    list-style: none;
+}
+
+@media only screen and (max-width: 1279px) {
+    .LittleParagraph__container {
+        font-size: 0.9rem;
+    }
+}

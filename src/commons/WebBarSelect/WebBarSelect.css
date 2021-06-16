@@ -1,0 +1,17 @@
+.WebBarSelect__component {
+    width: fit-content;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    color: #FFF;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase !important;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-family: 'Proza Libre', sans-serif !important;
+    font-weight: 600;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}

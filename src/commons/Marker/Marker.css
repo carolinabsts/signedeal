@@ -1,0 +1,6 @@
+.MarkerComponent__container {
+    background-color: var(--light-blue);
+    width: fit-content;
+    padding: 0 5px;
+    box-sizing: border-box;
+}
