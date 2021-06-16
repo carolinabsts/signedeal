@@ -15,8 +15,6 @@ const Products = lazy(() =>
 import('../../pages/Products/Products'));
 const Industries = lazy(() => 
 import('../../pages/Industries/Industries'));
-const Covid = lazy(() => 
-import('../../pages/Covid/Covid'));
 const Resources = lazy(() => 
 import('../../pages/Resources/Partners'));
 const Company = lazy(() => 
@@ -50,7 +48,6 @@ const RouterCenter: FC<{}> = () => {
                         <Route path={pathString.root} exact component={Landing} />
                         <Route path={pathString.products} exact component={Products} />
                         <Route path={pathString.industries} exact component={Industries} />
-                        <Route path={pathString.covid} exact component={Covid} />
                         <Route path={pathString.resources} exact component={Resources} />
                         <Route path={pathString.company} exact component={Company} />
                         <Route path={pathString.contactUs} exact component={ContactUs} />

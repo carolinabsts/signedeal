@@ -1,8 +1,11 @@
 import { Button, Typography } from "@material-ui/core"
 import { FC } from "react";
+import { useHistory } from "react-router";
+import { pathString } from "../../../commons/Router/pathString";
 import Section from "../../../commons/Section/Section"
 
 const FourthSection: FC<{}> = () => {
+    const history = useHistory();
     return (
         <Section
         className="Landing__FourthSection--container"
@@ -19,6 +22,7 @@ const FourthSection: FC<{}> = () => {
                 Join our community and get the best negotiation execution
             </Typography>
             <Button
+            onClick={() => history.push(pathString.contactUs)}
             variant="contained"
             color="primary">
                 Get signedeal now

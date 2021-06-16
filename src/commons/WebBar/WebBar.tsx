@@ -36,10 +36,6 @@ const WebBar: FC<WebBarProps> = (props) => {
       path: pathString.resources
     },
     {
-      link: 'Covid-19',
-      path: pathString.covid
-    },
-    {
       link: 'Company',
       path: pathString.company
     },

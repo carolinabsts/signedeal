@@ -28,7 +28,7 @@
 .webBar__toolBar {
     width: 90% !important;
     display: grid !important;
-    grid-template-columns: repeat(9, 11.12%);
+    grid-template-columns: repeat(8, 12.5%);
     margin: auto !important;
     position: relative;
 }

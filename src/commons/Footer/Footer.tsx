@@ -19,21 +19,6 @@ const Footer: FC<{}> = () => {
     useEffect(() => {
         if (match && heightSize) {
             switch (match.pathname) {
-                case pathString.covid:
-                    if (heightSize < HEIGHT) {
-                        if (widthSize > WIDTH) {
-                            setFixed(true);
-                        } else {
-                            setFixed(false)
-                        }
-                    } else {
-                        if (widthSize > WIDTH) {
-                            setFixed(true);
-                        } else {
-                            setFixed(false)
-                        }
-                    }
-                break;
                 case pathString.legal:
                     if (heightSize < HEIGHT) {
                         if (widthSize > WIDTH) {

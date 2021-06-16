@@ -2,7 +2,6 @@ export const pathString = {
     root: '/',
     products: '/products',
     industries: '/industries',
-    covid: '/covid',
     resources: '/resources',
     company: '/company',
     contactUs: '/contactUs',
