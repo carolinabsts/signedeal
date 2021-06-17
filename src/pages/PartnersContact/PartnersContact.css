@@ -16,7 +16,7 @@
 }
 
 .PartnersContact__card {
-    margin: 30px auto 50px 0;
+    margin: 30px auto 80px 0;
     width: 80%;
     max-width: 700px;
     background: #FFFFFF;
@@ -74,7 +74,7 @@
         margin-bottom: 0;
     }
     .PartnersContact__card {
-        margin: 30px 0 20px 0;
+        margin: 30px 0 80px 0;
     }
     .PartnersContact__card--item {
         width: 100%;

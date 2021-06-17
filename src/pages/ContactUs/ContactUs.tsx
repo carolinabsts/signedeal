@@ -176,9 +176,6 @@ const Company: FC<{}> = () => {
                         </Button>
                     </div>
                 </Grid>
-                <img 
-                className="ContactUs__img--img"
-                src="https://i.ibb.co/fHvLzPd/undraw-contact-us-15o2-1.png" alt=""/>
             </Container>
             <SignedealBackdrop isLoading={loading}/>
         </Section>

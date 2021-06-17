@@ -21,5 +21,12 @@ export const legal = [
             'Phone: +1786 6910365',
             'E-mail: info@signedeal.com'
         ]
+    },
+    {
+        title: 'Signedeal Trademarks',
+        paragraph: [
+            'Signedeal ™',
+            'Negotiation Process Automation ™'
+        ]
     }
 ];

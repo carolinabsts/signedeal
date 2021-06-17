@@ -30,7 +30,7 @@ const Newsroom: FC<{}> = () => {
                             Celonis & Signedeal
                         </Typography>
                         <div>
-                            <img src="https://i.ibb.co/K2VghrJ/Image.png" alt="img"/>
+                            <img src="https://i.ibb.co/tpcBm1N/Whats-App-Image-2021-06-16-at-16-30-24.jpg" alt="img"/>
                         </div>
                         <Typography
                         className="NewsroomPage__description"

@@ -15,7 +15,7 @@ import './Legal.css';
 const Legal: FC<any> = () => {
     const { widthSize } = useDisplaySize();
     useSEO('', 'Signedeal | Legal');
-    const links: any[] = [
+    const links: { link: string, path: string }[] = [
         {
             link: 'Terms and conditions',
             path: pathString.terms
@@ -28,30 +28,32 @@ const Legal: FC<any> = () => {
     return (
         <Section>
             <Container>
-                <Title
-                styles={{ margin: widthSize > WIDTH ? `60px 0 20px 0` : `30px 0` }}>
-                    <Marker>Legal</Marker>
-                </Title>
-                <div className="LegalPage__paragraphs--container">
-                    { legal.map(leg => 
-                        <LittleParagraph
-                        key={leg.title}
-                        title={leg.title}
-                        paragraph={leg.paragraph}
-                        />
-                    )}
-                </div>
-                <div className="LegalPage__links--container">
-                    <h4>
-                        Links
-                    </h4>
-                    { links.map(l => 
-                    <Link 
-                    className="LegalPage__links--item"
-                    to={l.path}>
-                        {l.link}
-                    </Link>
-                    )}
+                <div className="LegalPage__container">
+                    <Title
+                    styles={{ margin: widthSize > WIDTH ? `60px 0 20px 0` : `30px 0` }}>
+                        <Marker>Legal</Marker>
+                    </Title>
+                    <div className="LegalPage__paragraphs--container">
+                        { legal.map(leg => 
+                            <LittleParagraph
+                            key={leg.title}
+                            title={leg.title}
+                            paragraph={leg.paragraph}
+                            />
+                        )}
+                    </div>
+                    <div className="LegalPage__links--container">
+                        <h4>
+                            Links
+                        </h4>
+                        { links.map(l => 
+                        <Link 
+                        className="LegalPage__links--item"
+                        to={l.path}>
+                            {l.link}
+                        </Link>
+                        )}
+                    </div>
                 </div>
             </Container>
         </Section>
