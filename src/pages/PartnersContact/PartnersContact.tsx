@@ -50,7 +50,7 @@ const Company: FC<{}> = () => {
             setTimeout(() => {
                 setLoading(false);
                 setOpen(true);
-                setAlertMsg('Message sent succesfully!');
+                setAlertMsg('Message sent successfully!');
                 setName('');
                 setLastName('');
                 setEmail('');

@@ -1,7 +1,7 @@
 class EmailService {
     async sendEmail(email: any): 
     Promise<any> {
-      const response = await fetch(`http://localhost:4000/send-email`, {
+      const response = await fetch(`https://signedeal-api.herokuapp.com/send-email`, {
         method: 'POST',
         headers: {
           'Content-type': 'application/json'
