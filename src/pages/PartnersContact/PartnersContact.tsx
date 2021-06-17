@@ -83,11 +83,14 @@ const Company: FC<{}> = () => {
                 key={product.title}
                 item={product}> 
                     <div className="PartnersContact__button--watchDemo">
-                        <a href="https://www.celonis.com/ems/apps/procurement/?modalId=6upUOv8UnaenpMY3FxQWWN">
+                        { // eslint-disable-next-line react/jsx-no-target-blank 
+                        <a 
+                        target="_blank"
+                        href="https://www.celonis.com/ems/apps/procurement/?modalId=6upUOv8UnaenpMY3FxQWWN">
                         <Button
                          variant="contained"
                          color="primary">Watch demo</Button>
-                        </a>
+                        </a> }
                     </div>
                 </ImgCard>
                 )}
