@@ -1,6 +1,8 @@
 import { Button, Grid, Typography } from "@material-ui/core";
 import { FC } from "react";
+import { useHistory } from "react-router";
 import Container from "../../../commons/Container/Container";
+import { pathString } from "../../../commons/Router/pathString";
 import Section from "../../../commons/Section/Section"
 import { WIDTH } from "../../../const/widthBreakpoint";
 import { useDisplaySize } from "../../../hooks/useDisplaySize";
@@ -8,6 +10,7 @@ import '../Landing.css';
 
 const FirstSection: FC<any> = () => {
     const { heightSize, widthSize } = useDisplaySize();
+    const history = useHistory();
     return (
         <Section 
         className="Landing__coverSection--container"
@@ -32,10 +35,9 @@ const FirstSection: FC<any> = () => {
                             variant="h2">
                                 The Smart Negotiation Platform
                             </Typography>
-                            <a
-                            style={{ zIndex: 10, cursor: 'pointer' }}
-                            href="https://www.celonis.com/ems/apps/procurement/?modalId=6upUOv8UnaenpMY3FxQWWN">
                             <Button 
+                            onClick={() => 
+                            history.push(pathString.contactUs)}
                             style={{
                                 marginTop: 40,
                                 zIndex: 100,
@@ -43,9 +45,8 @@ const FirstSection: FC<any> = () => {
                             }}
                             variant="contained"
                             color="secondary">
-                                Request a demo
+                                Contact Us
                             </Button>
-                            </a>
                             <img 
                             src="https://i.ibb.co/xJF8gQD/Group-8.png" alt="img__cover"/>
                         </Grid>
